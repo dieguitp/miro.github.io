@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact | Mirò</title>
+        <meta name="description" content="Mirò contact info">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Diego A. Riveros">
+
+        <!-- FONTS -->
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Dosis:300,400,700,800' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/entypo.css">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" href="img/icon.png">
+        <link rel="icon" type="image/png" href="img/fav.png">
+        <script src="js/vendor/modernizr.js"></script>
+
+    </head>
+    <body class="contact-us">
+
+        <!-- Preloader -->
+        <div class="preloader flex flex-middle flex-center">
+            <div class="wrapper">
+                <div class="loader"></div>
+            </div>
+        </div>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-burger navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index-fr.html">Mirò</a>
+                    <ul class="nav navbar-nav navbar-right">
+     				<li><a href="contact.html"><span class="glyphicon glyphicon-bold"></span> EN</a></li>
+    				</ul>      
+                    <span class="sr-only">Toggle navigation</span>
+                    <button class="icon icon-menu burger-menu"></button>
+                </div>
+                <div class="menu-wrapper">
+                    <div class="overlay-menu flex flex-middle">
+                        <ul class="navigation" role="menubar">
+                            <li role="menuitem"><a href="index-fr.html">Acceuil</a></li>
+                            <li role="menuitem"><a href="about-fr.html">À propos</a></li>
+                            <li role="menuitem"><a href="contact-fr.html">Contact</a></li>
+                            <li role="menuitem"><a href="404.html">Portfolio</a></li>
+                            <li role="menuitem"><a href="comingsoon.html">Logiciels</a></li>
+                            <li role="menuitem"><a href="shortcodes.html">Musiques</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="site-header" role="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <hgroup class="title-group">
+                            <h1 class="bigtitle">Contact</h1>
+                            <h4>Mirò sevices musicaux</h4>
+                        </hgroup>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Content -->
+        <main class="main" role="main">
+
+            <!-- Address -->
+            <section class="section text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <hgroup class="title-group">
+                                <h3 class="title">Demandez une consultation</h3>
+                                <h5 class="subtitle">Ça va me faire plaisir de vous rencontrer</h5>
+                            </hgroup>
+                        </div>
+                        <div class="col-sm-8 col-md-12">
+                            <!-- Gmap 
+                            <div id="mymap" class="mymap"></div>
+                        </div> -->
+                        <div class="col-sm-4 col-md-12">
+                            <address class="address">
+                                <h4 class="title">Mirò services musicaux</h4>
+                                <p>J'offre une grande variété de services de nature musicale selon vos besoins. De la programmation jusqu'à l'enregistrement. Laissez moi vous montrer de quoi je suis capable.</p>
+                                <ul class="vcard">
+                                   <!-- <li>
+                                        <i class="icon icon-home"></i>
+                                        <span class="vcard-item">795 Folsom Ave,<br>San Francisco, CA 94107</span>
+                                    </li> -->
+                                    <li>
+                                        <i class="icon icon-newsletter"></i>
+                                        <span class="vcard-item"><a href="mailto:#">diegoariveros@gmail.com</a></span>
+                                    </li>
+                                    <li>
+                                        <i class="icon icon-phone"></i>
+                                        <span class="vcard-item">(438) 394-7861</span>
+                                    </li>
+                                </ul>
+                            </address>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Contact Form / Address -->
+            <section class="section contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <hgroup class="title-group text-center">
+                                <h3 class="title">Écrivez moi un message</h3>
+                                <h5 class="subtitle">Laissez moi gérer votre projet et je répondrai à tous vos besoins.</h5>
+                            </hgroup>
+                        </div>
+                        <div class="col-md-8 col-md-offset-2">
+                            <!-- Contact Form -->
+                            <article class="contact-form">
+                                <form action="php/contact-form.php" id="contact-form" role="form">
+                                    <div class="alert alert-success hidden" id="contact-alert-success">
+                                        <strong>Réussite!</strong> Merci de votre message. Je vous repondrai le plus tôt possible!
+                                    </div>
+                                    <div class="alert alert-danger hidden" id="contact-alert-error">
+                                        <strong>Erreur!</strong> Votre message n'a pas été envoyé, veuillex appeler pour laisser votre message.
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="sr-only" for="name"></label>
+                                                <input type="text" class="form-control" value="" placeholder="Name" data-msg-required="Please enter your name." name="name" id="name">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="sr-only" for="email"></label>
+                                                <input type="email" value="" placeholder="E-mail" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." class="form-control" name="email" id="email">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <label class="sr-only" for="message"></label>
+                                                <textarea placeholder="Enter your message..." data-msg-required="Please enter your message." rows="6" class="form-control" name="message" id="message"></textarea>
+                                            </div>
+                                            <input type="submit" value="Send Message" class="btn btn-submit btn-block" data-loading-text="Loading...">
+                                        </div>
+                                    </div>
+                                </form>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer" role="contentinfo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="social-list">
+                            <li><a href="#" class="icon icon-facebook"></a></li>
+                            <li><a href="#" class="icon icon-twitter"></a></li>
+                            <li><a href="#" class="icon icon-pinterest"></a></li>
+                            <li><a href="#" class="icon icon-flickr"></a></li>
+                            <li><a href="#" class="icon icon-dribbble"></a></li>
+                            <li><a href="#" class="icon icon-behance"></a></li>
+                        </ul>
+                        <nav class="foter-navbar" role="navigation">
+                            <ul class="footer-nav" role="menubar">
+                            <li role="menuitem"><a href="index-fr.html">Home</a></li>
+                            <li role="menuitem"><a href="about-fr.html">About</a></li>
+                            <li role="menuitem"><a href="contact-fr.html">Contact</a></li>
+                            <li role="menuitem"><a href="portofolio-fr.html">Portfolio</a></li>
+                            <li role="menuitem"><a href="https://github.com/dieguitp">Software</a></li>
+                            <li role="menuitem"><a href="https://soundcloud.com/diegoariveros">Music</a></li>
+                            </ul>
+                        </nav>
+                        <p class="copyright">&copy; <time datetime="2016">2016</time> Mirò, All Rights Reserved, made by Diego A. Riveros </a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="js/vendor/jquery.appear.js"></script>
+        <script src="js/vendor/slick.min.js"></script>
+        <script src="js/vendor/jquery.countTo.js"></script>
+        <script src="js/vendor/jquery.parallax.min.js"></script>
+        <script src="js/vendor/jquery.magnific-popup.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <!-- GMap3-->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script src="js/vendor/gmap3.min.js"></script>
+        <script src="js/mymap.js"></script>
+
+        <!-- Contact Form -->
+        <script src="js/vendor/jquery.validate.min.js"></script>
+        <script src="js/contact.js"></script>
+
+    </body>
+</html>
